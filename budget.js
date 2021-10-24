@@ -36,9 +36,9 @@ function budget(start, firstPayment, frequency, count, amount) {
     frequency,
     count,
     amount,
-    get dayAmount(day) {
+    getDayAmount: function (day) {
       return getDayAmount(this, day);
-    }
+    },
   };
 }
 
