@@ -40,7 +40,7 @@ function budget(start, firstPayment, frequency, count, amount) {
       return getDayAmount(this, day);
     },
     get finalPayment() {
-      return getFinalPayment(this.firstPayment, this.frequency, this.count);
+      return getFinalPayment(this);
     },
   };
 }
