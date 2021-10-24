@@ -1,0 +1,12 @@
+{
+  "name": "budget-schedules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "budget.js",
+  "keywords": [
+    "date",
+    "schedule"
+  ],
+  "author": "Timothy Metcalfe",
+  "license": "MIT"
+}
